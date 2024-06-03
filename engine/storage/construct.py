@@ -12,9 +12,6 @@ def component():
     table["height"] += 1
     return index
 
-def components(amount):
-    return (component() for _ in range(amount))
-
 def entity():
     index = table["width"]
     table["width"] += 1
@@ -46,8 +43,6 @@ def assemble(*specs):
     return product
 
 component.__doc__ = """
-"""
-components.__doc__ = """
 """
 entity.__doc__ = """
 """

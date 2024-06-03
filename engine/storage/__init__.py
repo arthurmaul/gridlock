@@ -1,2 +1,2 @@
-from engine.storage import construct, command, query, deconstruct
+from engine.storage import construct, deconstruct, command, query
 
